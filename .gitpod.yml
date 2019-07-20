@@ -1,4 +1,4 @@
 image:
   file: Dockerfile
 tasks:
-  - init: echo $PWD
+  - init: cd / &&  cd theia/node_modules/vscode/.vscode && touch test.json & echo "testing" > test.json
