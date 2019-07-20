@@ -6,7 +6,7 @@ RUN apt-get update && apt-get install -y \
     fonts-powerline \
     zsh \
     && apt-get clean && rm -rf /var/cache/apt/* && rm -rf /var/lib/apt/lists/* && rm -rf /tmp/* && \
-    npm install -g angular/cli
+    sudo npm install -g angular/cli
 
 USER gitpod
 # Apply user-specific settings
