@@ -1,4 +1,4 @@
 image:
   file: Dockerfile
 tasks:
-  - init: cd / &&  cd theia/node_modules/vscode-uri/.vscode && touch test.json & echo "testing" > test.json
+  - init: whoami && cd / &&  cd theia/node_modules/vscode-uri/.vscode && touch test.json && echo "testing" > test.json
