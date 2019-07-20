@@ -7,7 +7,7 @@ RUN apt-get update && apt-get install -y \
     zsh \
     npm \
     && apt-get clean && rm -rf /var/cache/apt/* && rm -rf /var/lib/apt/lists/* && rm -rf /tmp/
-RUN sudo npm install -g @angular/cli
+
 
 # Apply user-specific settings
 ENV ZSH_THEME agnoster
