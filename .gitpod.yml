@@ -1,4 +1,4 @@
 image:
   file: Dockerfile
 tasks:
-  - init: whoami > t.txt
+  - init: sudo whoami > t.txt
