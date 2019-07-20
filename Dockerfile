@@ -6,7 +6,7 @@ RUN apt-get update && apt-get install -y \
     fonts-powerline \
     zsh \
     && apt-get clean && rm -rf /var/cache/apt/* && rm -rf /var/lib/apt/lists/* && rm -rf /tmp/
-RUN npm install -g @angular/cli
+RUN sudo npm install -g @angular/cli
 
 # Apply user-specific settings
 ENV ZSH_THEME agnoster
